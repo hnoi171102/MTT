@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="MVS">
+    <output-path>$PROJECT_DIR$/out/artifacts/MVS</output-path>
+    <root id="root">
+      <element id="archive" name="MVS.jar">
+        <element id="module-output" name="MVS" />
+      </element>
+    </root>
+  </artifact>
+</component>

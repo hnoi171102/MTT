@@ -1,0 +1,116 @@
+PlainNode: int x_w00 
+PlainNode: (x_w01 = 0)
+PlainNode: int n_w00 
+PlainNode: (n_w01 = 20)
+PlainNode: int check_x_w00 
+t1 {
+PlainNode: (check_x_w11 = x_r11)
+}  <--t1
+t2 {
+PlainNode: int t_t2_w-10 
+PlainNode: (t_t2_w21 = x_r21)
+PlainNode: (x_w22 = (t_t2_r22 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w20 
+PlainNode: (t_t2_w31 = x_r31)
+PlainNode: (x_w32 = (t_t2_r32 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w30 
+PlainNode: (t_t2_w41 = x_r41)
+PlainNode: (x_w42 = (t_t2_r42 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w40 
+PlainNode: (t_t2_w51 = x_r51)
+PlainNode: (x_w52 = (t_t2_r52 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w50 
+PlainNode: (t_t2_w61 = x_r61)
+PlainNode: (x_w62 = (t_t2_r62 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w60 
+PlainNode: (t_t2_w71 = x_r71)
+PlainNode: (x_w72 = (t_t2_r72 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w70 
+PlainNode: (t_t2_w81 = x_r81)
+PlainNode: (x_w82 = (t_t2_r82 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w80 
+PlainNode: (t_t2_w91 = x_r91)
+PlainNode: (x_w92 = (t_t2_r92 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w90 
+PlainNode: (t_t2_w101 = x_r101)
+PlainNode: (x_w102 = (t_t2_r102 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w100 
+PlainNode: (t_t2_w111 = x_r111)
+PlainNode: (x_w112 = (t_t2_r112 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w110 
+PlainNode: (t_t2_w121 = x_r121)
+PlainNode: (x_w122 = (t_t2_r122 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w120 
+PlainNode: (t_t2_w131 = x_r131)
+PlainNode: (x_w132 = (t_t2_r132 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w130 
+PlainNode: (t_t2_w141 = x_r141)
+PlainNode: (x_w142 = (t_t2_r142 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w140 
+PlainNode: (t_t2_w151 = x_r151)
+PlainNode: (x_w152 = (t_t2_r152 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w150 
+PlainNode: (t_t2_w161 = x_r161)
+PlainNode: (x_w162 = (t_t2_r162 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w160 
+PlainNode: (t_t2_w171 = x_r171)
+PlainNode: (x_w172 = (t_t2_r172 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w170 
+PlainNode: (t_t2_w181 = x_r181)
+PlainNode: (x_w182 = (t_t2_r182 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w180 
+PlainNode: (t_t2_w191 = x_r191)
+PlainNode: (x_w192 = (t_t2_r192 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w190 
+PlainNode: (t_t2_w201 = x_r201)
+PlainNode: (x_w202 = (t_t2_r202 + 1))
+}  <--t2
+t2 {
+PlainNode: int t_t2_w200 
+PlainNode: (t_t2_w211 = x_r211)
+PlainNode: (x_w212 = (t_t2_r212 + 1))
+}  <--t2
+BeginIfNode
+with Condition ((n_r221 >= 20) and (n_r222 < 40))
+Then Clause: 
+       PlainNode: (return_nondet_loop_bound_1_w221 = 1)
+       Else Clause: 
+       PlainNode: (return_nondet_loop_bound_1_w221 = 0)
+       EndConditionNode
+}  <--nondet_loop_bound_1

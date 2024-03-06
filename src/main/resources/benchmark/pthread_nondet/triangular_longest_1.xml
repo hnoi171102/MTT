@@ -1,0 +1,8 @@
+<AssertionFile>
+    <AssertionMethod>
+        <Method>triangular_longest_1</Method>
+        <PreCondition></PreCondition>
+        <PostCondition>return = 0</PostCondition>
+        <LoopCount>5</LoopCount>
+    </AssertionMethod>
+</AssertionFile>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MTV:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MTV_jar</output-path>
+    <root id="archive" name="MTV.jar">
+      <element id="module-output" name="MTV" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/MTV/src/lib/com.microsoft.z3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/MTV/src/lib/jxl.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/MTV/src/lib/javatuples-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/MTV/src/lib/org.eclipse.cdt.core_5.6.0.201402142303.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/MTV/src/lib/eclipse-equinox-common-3.5.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/MTV/src/lib/org.eclipse.cdt.codan.core_2.0.0.201109151620.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
